@@ -45,8 +45,8 @@ func main() {
 		ReadTimeout:  10 * time.Second,
 		WriteTimeout: 10 * time.Second,
 	}
-	log.Println("API Key:", os.Getenv("APIKEY"))
-	log.Println("API Key:", os.Getenv("LANG"))
+	log.Println("API Key:", os.Getenv("API_KEY"))
+	log.Println("API Key:", os.Getenv("LANGUAGE"))
 
 	// Start Server
 	go func() {
